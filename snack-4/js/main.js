@@ -15,5 +15,7 @@ for (let i = 0; i <= listaNomi.length; i++) {
     if (nameUser == listaNomi[i]) {
         const entra = true
         console.log('puoi entrare')
+    } else {
+        console.log('non puoi entrare')
     }
 }
