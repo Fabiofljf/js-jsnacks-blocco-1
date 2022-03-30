@@ -8,12 +8,12 @@ const nameUser = prompt('inserisci il tuo nome')
 
 //variabile true
 
-const entra = false
+let entra = false
 
 //Verifico
 for (let i = 0; i <= listaNomi.length; i++) {
     if (nameUser == listaNomi[i]) {
-        const entra = true
+        entra = true
         console.log('puoi entrare')
     } else {
         console.log('non puoi entrare')
