@@ -5,6 +5,7 @@ let potenza;
 for (let i = 0; i < 1000; i++) {
 
     potenza = Math.pow(2, i);
+    console.log(potenza)
 
 
 }
