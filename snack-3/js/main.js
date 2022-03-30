@@ -9,13 +9,8 @@ for (let i = 0; i < 10; i++) {
 }
 
 //creo due categorie per sommare
-if (numeriUtente[i] % 2 == 0) {
-    console.log('pari')
-}
+const totNumeriPari = (numeriUtente[i] % 2 == 0)
+const totNumeridispari = (numeriUtente[i] % 2 != 0)
 
-
-for (let i = 0; i < 10; i++) {
-    const numTot = numeriUtente[i] + numeriUtente[i]
-
-    console.log(numTot)
-}
+const numeroTot = totNumeriPari + totNumeridispari
+console.log(numeroTot)
