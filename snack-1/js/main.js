@@ -2,8 +2,7 @@
 
 const primoNumero = prompt('Inserisci numero')
 const secondoNumero = prompt('Inserisci numero')
-console.log(primoNumero);
-console.log(secondoNumero);
+
 
 // Il software stampa il maggiore.
 if (primoNumero > secondoNumero) {
