@@ -3,23 +3,21 @@ const list = new Array()
 
 //Chiedi per 6 volte all’ utente di inserire un numero
 //variabile
-let confronta, aggiungi;
-confronta = 0
+let numeroUser, confronta, addNumber;
 
 
 for (let i = 0; i < 6; i++) {
-    const numeroUser = Number(prompt('inserisci un numero'))
+    numeroUser = parseInt(prompt('inserisci un numero'))
 
+    // Numeri dispari
     if (numeroUser % 2 != 0) {
-        confronta == true
-        aggiungi == true
-    }
-
-    if (aggiungi == true) {
-        Element.push[numeroUser]
-        console.log(list)
+        confronta = true
+        addNumber = numeroUser
+        list.push(addNumber)
     }
 }
+
+console.log(list)
 
 
 //numeri dispari
