@@ -6,9 +6,9 @@ console.log(primaParola.length)
 console.log(secondaParola.length)
 
 if (primaParola.length > secondaParola.length) {
-    console.log('la prima parola è più lunga')
+    console.log(`la prima parola è più lunga, ${primaParola} la stampo per prima, poi ${secondaParola}`)
 } else if (primaParola.length < secondaParola.length) {
-    console.log('la seconda parola è più lunga')
+    console.log(`la seconda parola è più lunga, ${secondaParola} la stampo per prima e poi ${primaParola}`)
 } else {
     console.log('le parole hanno la stessa lunghezza')
 }
