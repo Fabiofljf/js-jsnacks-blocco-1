@@ -9,3 +9,5 @@ let cubo;
 
 cubo = numero * numero * numero;
 console.log(cubo)
+
+//trovare il cubo del primi N numeri tipo se è 3 il numero scelto, stampare il cubo di 1 poi 2 e poi 3

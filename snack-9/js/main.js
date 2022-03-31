@@ -1,6 +1,6 @@
 //Calcola la somma e la media dei primi 10 numeri.
 
-const numeri = [1, 5, 3]
+const numeri = [10, 5, 40]
 
 let somma = 0
 let media;

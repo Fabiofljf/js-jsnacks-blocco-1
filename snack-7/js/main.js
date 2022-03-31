@@ -1,11 +1,6 @@
 //Stampa le potenze di 2 fino a 1000.
 
-let potenza;
+for (let n = 0; Math.pow(2, n) < 1000; n++) {
 
-for (let i = 0; i < 1000; i++) {
-
-    potenza = Math.pow(2, i);
-    console.log(potenza)
-
-
+    console.log(Math.pow(2, n));
 }
